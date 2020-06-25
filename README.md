@@ -25,7 +25,7 @@ The following variables must be updated in the script according to the data the 
 2) Sample data: file with source and detrital data
   (.csv file, first column: sample ID, other columns: different tracers,
    every row corresponds to tracer information for a different source area)
-3) Shapefile with sample locations        --->(source_samples)
+3) Shapefile with sample locations
    (attribute table: ID corresponds to source area e.g. sample 3 is
    representative for source area 3)
    (contains n_datasamples (detrital) samples for which the data will be inverted,
