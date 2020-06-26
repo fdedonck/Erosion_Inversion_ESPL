@@ -3,8 +3,8 @@ Inversion of provenance data and sediment load into spatially varying erosion ra
 
 ## Introduction
 This repository contains 2 Matlab scripts:
-1) `Forward_Inverse_ESPL.m` for synthetic tests (forward - inverse tests for a synthetic catchment)
-2) `INVERSION_Marshyangdi.m` that computes an erosion rate map from detrital data, source area information and sediment load of the river of interest.
+1) `Synthetic_tests/Forward_Inverse_ESPL.m` for synthetic tests (forward - inverse tests for a synthetic catchment)
+2) `Natural_Example_Marsyandi/INVERSION_Marshyangdi.m` that computes an erosion rate map from detrital data, source area information and sediment load of the river of interest.
 
 The inversion scheme is based on the following forward statement: 
 **d** = **G\*edot** 
