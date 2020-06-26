@@ -14,6 +14,7 @@ The inversion scheme computes **edot** from **G** and **d**, to deal with the un
 The forward - inverse script can be run in different modes:
 1) with different true erosion rate patterns (block, gaussian bump or checkerboard)
 2) with or without additional subcatchment data
+
 First, data are computed with the forward model (**d** = **G\*edot**) using a chosen, 'true' erosion rate map and chosen tracer concentrations for the different geological units. These data are then inverted into spatially varying erosion rates with a closed-form, linear least-squares inversion scheme. Posterior uncertainties are evaluated by mapping the spread function, resolution, posterior and reduced variance, and the difference between the true and posterior erosion rate model. See paper *Inversion of provenance data and sediment load into spatially varying erosion rates* (ESPL, in review) for more information and examples of synthetic tests. 
 
 The Marsyangdi script can be run in the following modes:
